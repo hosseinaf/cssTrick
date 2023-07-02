@@ -1,0 +1,44 @@
+ html
+ {
+   box-sizing: border-box;
+ }
+
+ *,
+ *:after,
+ *::before
+ {
+   box-sizing: inherit;
+ }
+
+ body
+ {
+   background-color: black;
+ }
+
+ .top-header
+ {
+  background-color: #fff;
+   padding: 1em 0;
+
+ }
+
+ .inner-container
+ {
+
+  width:90%;
+  max-width: 1200px;
+  border:1px solid red ;
+ }
+ 
+
+ .logo
+ {
+   margin: 0; 
+ }
+
+ .logo-image
+ {
+   display: block;
+   width: 4em;
+   
+ }
