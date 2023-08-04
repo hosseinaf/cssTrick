@@ -12,19 +12,175 @@
       src="https://kit.fontawesome.com/b9f89a488f.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
   </head>
 
   <body>
-    <div class="outer_container">
-      <header class="header">
-        <div class="top_header">
-          <div class="inner_container">
+    <div class="outer-container">
+      <!-- <header class="header">
+        <div class="top-header">
+          <div class="inner-container">
             <h1 class="logo">
-              <img class="logo_image" src="./images/logo.png" alt="" />
+              <img class="logo__image" src="./images/logo.png" alt="" />
             </h1>
           </div>
         </div>
+        <div class="banner">
+          <h2 class="banner__templeta">Template for your company</h2>
+          <p class="banner__description">website for youre business</p>
+          <time class="banner__date"
+            >Wed Nov 19 2020 <span class="banner__time">4:23</span></time
+          >
+          <a class="banner__btn">Join us</a>
+        </div>
+      </header> -->
+      <header class="header">
+        <div class="top-header">
+          <div class="inner-container">
+            <h1 class="logo">
+              <img class="logo__img" src="images/logo.png" />
+            </h1>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="inner-container">
+            <h1 class="banner__title">templete for your company</h1>
+            <p class="banner__description">website for your buisinse</p>
+            <p class="banner__date">
+              wed nov 19 2014 <span class="banner__time">4:35</span>
+            </p>
+            <a class="banner__btn">join us</a>
+          </div>
+        </div>
       </header>
+
+      <main>
+        <div class="contact">
+          <div class="inner-container">
+            <div class="contact-us">
+              <h2 class="contact-us__title">RECENT WORKS</h2>
+              <p class="contact-us__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque fugiat accusamus tempora ex maiores nisi rem itaque,
+                dolor alias sed illo nulla eius, quos officia non ipsum labore
+                voluptatibus at.
+              </p>
+              <p class="contact-us__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque fugiat accusamus tempora ex maiores nisi rem itaque.
+              </p>
+
+              <form>
+                <input
+                  class="contact-us__input"
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  placeholder="Enter your name"
+                />
+
+                <input
+                  class="contact-us__input"
+                  type="email"
+                  id="fname"
+                  name="fname"
+                  placeholder="Enter your email"
+                />
+
+                <input
+                  class="contact-us__input"
+                  type="tel"
+                  id="fname"
+                  name="fname"
+                  placeholder="Enter your phone number"
+                />
+                <textarea
+                  class="contact-us__input"
+                  id="w3review"
+                  name="w3review"
+                  rows="4"
+                  cols="50"
+                  placeholder="Write your message"
+                >
+                </textarea>
+                <button class="contact__btn">send</button>
+              </form>
+            </div>
+
+            <h3 class="contact__title">CONTACT US</h3>
+            <div class="contact__wrap">
+              <span class="contact__icon fa fa-pencil"></span>
+              <span class="contact__text">
+                JOHN "GULLIBLE" DOE <br />
+                CENTER FOR FINANCIAL ASSISTANCE TO DEPOSED NIGERIAN ROYALTY
+                <br />
+                421 E DRACHMAN <br />
+                TUCSON AZ 85705-7598 <br />
+                USA
+              </span>
+            </div>
+            <div class="contact__wrap">
+              <span class="contact__icon fa fa-phone"></span>
+              <span class="contact__text"> Phone </span>
+            </div>
+
+            <div class="contact__wrap">
+              <span class="contact__icon fa fa-envelope-o"></span>
+              <span class="contact__text"
+                >Email: seyedmojtabaseyedi@gmail.com</span
+              >
+            </div>
+          </div>
+        </div>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101639.31264012166!2d49.522409316700454!3d37.242285252690515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ff5620d43f15675%3A0x41dd40f9931cfbf6!2sRasht%2C%20Gilan%20Province%2C%20Iran!5e0!3m2!1sen!2s!4v1690516783283!5m2!1sen!2s"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </main>
+
+      <footer>
+        <div class="inner-container">
+          <h2 class="footer__title">NEWS LETTER SIGNUP</h2>
+          <p class="footer__tagline">get cool suff. we hate spam!</p>
+
+          <div class="newsletter">
+            <input
+              class="newsletter__input"
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Enter your Email..."
+            />
+            <a class="fa fa-send newsletter__button" aria-hidden="true"></a>
+          </div>
+
+          <ul class="social-links">
+            <li>
+              <a class="social-link fa fa-twitter"></a>
+            </li>
+            <li>
+              <a class="social-link fa fa-facebook"></a>
+            </li>
+            <li>
+              <a class="social-link fa fa-dribbble"></a>
+            </li>
+            <li>
+              <a class="social-link fa fa-skype"></a>
+            </li>
+            <li>
+              <a class="social-link fa fa-youtube"></a>
+            </li>
+          </ul>
+          <p class="copyright">copy right 2020</p>
+        </div>
+      </footer>
     </div>
   </body>
   <script src="scripts/main.js"></script>
